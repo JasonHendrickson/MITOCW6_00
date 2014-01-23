@@ -9,9 +9,9 @@ def evaluate_poly(poly, x):					#Defines a function that will evaluate a given p
 		print ans
 	return ans
 
-print "This program calculates the polynomial 2x^5 + 13.1x^4 + 8.3x^2 + 2 for any value of 'x'."
+print "This program calculates the polynomial f(x) = 7.0x^4 + 9.3x^3 + 5.0x^2 for any value of 'x'."
 x = float(raw_input('Enter a value for x: '))
-y = (2, 0.0, 8.3, 0.0, 13.1, 2)
+y = (0, 0, 5.0, 9.3, 7.0)
 print evaluate_poly(y, x)
 	
 	
